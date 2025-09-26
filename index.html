@@ -4,15 +4,26 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/lucide-static@latest/font/lucide.css" />
     <title>To Do List App</title>
   </head>
   <body>
     <div id="app">
+    <span class="icon-circle-check-big" style="font-size: 30px; color: #5291F6;">
+      <span class="todo-header">TodoList</span>
+    </span>
       <div class="app-wrapper">
         <div class="add-task">
-          <input type="text" placeholder="Add new task">
-          <button>Add task</button>
+          <input type="text" placeholder="Add new task..." class="placeholder"><button class="icon-plus"></button></input>
         </div>
+        <div class="task-list">
+          <hr>
+            <div class="round">
+    <input type="checkbox" id="myRoundCheckbox" class="checkbox-round">
+<label for="checkbox">Round Checkbox</label>
+  </div>
+        </div>
+        <hr >
       </div>
     </div>
     <script type="module" src="main.js"></script>
