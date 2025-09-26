@@ -16,7 +16,7 @@ body {
 .app-wrapper {
   border: 2px white solid;
   border-radius:8px;
-  height: 150px;
+  height: auto;
   width: 400px;
   margin: 25px;
   background-color: white;
